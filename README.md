@@ -67,6 +67,16 @@ Model performance was evaluated using:
 * **Random Forest Regressor** emerged as the best-performing model, achieving the lowest RMSE and MAE, and the highest $R^2$ score.
 * The sentiment analysis features (positive and negative review counts) were found to be the most important predictors of professor ratings.
 * Overall, the models demonstrated reasonable predictive capability, with Random Forest's average prediction being approximately $0.81$ stars off (based on RMSE).
-* Future work could involve exploring more advanced features or different model architectures to further improve prediction accuracy.
+* Future work could involve exploring more advanced features or different model architectures to improve prediction accuracy further.
 
 This project demonstrates strong skills in data collection, feature engineering, machine learning model implementation, and robust evaluation techniques.
+
+## Technologies Used
+
+* **Python**
+* **Pandas**: For data manipulation and cleaning.
+* **Scikit-learn (sklearn)**: For implementing various machine learning regression models (Random Forest, KNN, SVR, Decision Tree, Elastic Net) and evaluation metrics.
+* **Matplotlib**: For data visualization.
+* **Transformers (Hugging Face)**: For sentiment analysis.
+* **Requests**: For interacting with the PlanetTerp API.
+* **Jupyter Notebook (Google Colab)**: For interactive analysis and documentation.
